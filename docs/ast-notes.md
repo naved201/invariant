@@ -41,6 +41,6 @@ AST representation:
 
 	Traversal begins by calling:
 
-	visitor.visit(tree)
+	`visitor.visit(tree)`
 
 	This walks the entire AST and automatically calls the appropriate visit_<NodeType> methods.	
