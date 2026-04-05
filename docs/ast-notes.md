@@ -33,7 +33,8 @@ AST representation:
 
 	```def visit_For(self, node): 
 		print(node)
-		self.generic_visit(node)```
+		self.generic_visit(node)
+	```
 
 	The node parameter is defined as node = ast.parse(example.py) inside the main function. 
 
