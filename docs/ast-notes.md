@@ -26,7 +26,7 @@ AST representation:
 	It is a class offered by the ast module to traverse ASTs. 
 	It has methods of the form:
 	
-	visit_<NodeType>
+	`visit_<NodeType>`
 	
 	which is called during runtime when the particular node type is encountered. It doesn't return or do anything by default unless specified by the developer.
 	For example, visit_For will print the memory addresses of all for loop declarations from top to bottom within the Python file when defined as:
